@@ -3,7 +3,7 @@ require('dotenv').config()
 const { Configuration, OpenAIApi } = require("openai");
 const express = require("express");
 const configuration = new Configuration({
-    organization: "org-wdOu5XPUPkw64144ve7LH6Na",
+    // organization: "org-wdOu5XPUPkw64144ve7LH6Na",
     apiKey: process.env.CHAT_GPT_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
